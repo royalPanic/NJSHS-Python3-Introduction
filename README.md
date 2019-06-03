@@ -65,7 +65,7 @@ for y in list: # this loop runs the code for every instance of a value in an ite
     print("Hello world!")
 ```
 
-A **while loop** continues to run as long as its condition is fulfilled. An **if loop** checks the condition, and if it is true, it runs the code, if not, it doesn't. *If* loops are especially important because they can be extended past their standard form. While an *if* loop starts with `if`, it can be extended perpetually with `elif` (else/if) and `else`. For instance:
+A **while loop** continues to run as long as its condition is fulfilled. A **for loop** iterates through a special kind of variable called an iterable. The only iterable variable type we'll we working with in this guide is a list. An **if loop** checks the condition, and if it is true, it runs the code, if not, it doesn't. *If* loops are especially important because they can be extended past their standard form. While an *if* loop starts with `if`, it can be extended perpetually with `elif` (else/if) and `else`. For instance:
 
 ```python
 x = 4
