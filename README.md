@@ -26,7 +26,7 @@ Firstly, we're going to need to download and install Python to your computer. [(
 ## Our First Program:
 As is with standard programming tradition, our first program will be a simple "Hello world!" script. Doing this in python is incredibly simple, as we only have to print a string.
 
-```Python
+```python
 print("Hello world!")
 ```
 That's it! That's all! Very simple. Now, let's move on to some of the fundamentals of Python.
@@ -37,7 +37,7 @@ Variables are objects in code that can be set to have a certain value, and we ca
 ### Types of Variables:
 There are 5 basic types of variables in python, we'll only be working substantially with 3 of them in this document.
 
-```Python
+```python
 string = "string"
 integer = 5
 list = [1,"Two",3]
@@ -52,7 +52,7 @@ Loops are blocks of code that allow us to repeat sections of code for a predefin
 ### Types of Loops
 There are 4 basic types of loop in python, and they are triggered and repeated by varying conditions.
 
-```Python
+```python
 x = 1
 list = [1, 2, 3]
 while x == 1: # at all times when x = 1, this loop will run
@@ -81,7 +81,7 @@ else:
 ### Loop Logical Modifiers:
 Say you don't just want to check one thing, no worries, all your favourite standard logic gates exist within python loops. This allows us to check multiple conditions at once to further specify when loops should run as opposed to nesting *if* loops until we get to where we need. The most commonly used logical modifiers are `AND` and `OR`, but there are others. To see them in use, let's see two ways of making the same conditional loop.
 
-```Python
+```python
 x = 1
 y = 2
 
@@ -92,7 +92,7 @@ if x == 1:
 
 Now, this isn't really readable or very efficient, so let's see the same loop created with logical modifiers.
 
-```Python
+```python
 x = 1
 y = 2
 
@@ -105,14 +105,14 @@ Now before we get to the first challenge, let's review one more key feature of p
 ## Functions:
 Functions are ever present in python, they make up every command you use, whether you know it or not. The main function we've been using up until now is `print()`. However, we can easily define our own functions in python, and even give them custom arguments.
 
-```Python
+```python
 def myFunction(input):
     print(input)
 ```
 
 This function will print whatever we give it as an argument. Running this will give us the result of our function.
 
-```Python
+```python
 myFunction("apple pi")
 ```
 
@@ -129,7 +129,7 @@ Now that we've conquered the fundamentals of python, let's start with a basic ch
 
 Since this is the first challenge, I'll walk through how to solve it, and introduce you to variable casting.
 
-```Python
+```python
 def square_digits(num): # first we make a function that accepts an integer as a input
     chars = list(str(num)) # next, we take the input of num, which is a integer, and we cast it (change it) to a string with str(). we then cast it again to a list, which will generate a list of the characters in the string
     i = 0 # create a variable
