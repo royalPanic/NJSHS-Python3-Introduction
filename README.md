@@ -18,7 +18,7 @@ Python is a computer programming language designed to be powerful while also bei
 
 ## Getting Started with Python:
 ### IDLE
-Firstly, we're going to need to download and install Python to your computer. [(If you're not going to download Python, or you'd rather use an online compiler, start here.)](#repl.it) The basic Python interpreter/compiler is called **IDLE**, and it's available for free from the [official Python website](https://www.python.org/downloads/). Download the latest version of Python v3.x (v3.7.3 as of writing), and install it on your computer. After you're done, open IDLE. This will open to the "Python Terminal" window, but that's not what we want, so simply press `CTRL+N` to open a new `.py` document.
+Firstly, we're going to need to download and install Python to your computer. [(If you're not going to download Python, or you'd rather use an online compiler, start here.)](#replit) The basic Python interpreter/compiler is called **IDLE**, and it's available for free from the [official Python website](https://www.python.org/downloads/). Download the latest version of Python v3.x (v3.7.3 as of writing), and install it on your computer. After you're done, open IDLE. This will open to the "Python Terminal" window, but that's not what we want, so simply press `CTRL+N` to open a new `.py` document.
 
 ### REPL.IT
 **Repl.it** is an online compiler and interpreter, and it allows us to write and test code in our browser with no downloads. To start, navigate to [Repl](https://repl.it/) and create an account. Then, make a new program, and select `Python3` as the language.
