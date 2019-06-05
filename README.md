@@ -119,7 +119,7 @@ myFunction("apple pi")
 Will return:
 
 ```
-apple pi
+>>> "apple pi"
 ```
 
 Now that we've conquered the fundamentals of python, let's start with a basic challenge to see what you've learned.
@@ -138,4 +138,22 @@ def square_digits(num): # first we make a function that accepts an integer as a 
         squares.append(str(int(chars[i])*int(chars[i]))) # add the square of the number to the empty list
         i += 1
     return("".join(squares)) # join the list together as a string and return it as the result of the function
+```
+
+## Iterables and the *For* Loop:
+So while we already looked at the *For* loop as an easy way to move through a iterable-type variable. Now we're going to further explore this, and how we can use it to make several iterations of the same loop.
+
+```python
+list = [1,"two", 3]
+
+for x in list: # here we assign x as a (hyper)local variable, where x is defined as the current iteration of the list, which we move through in the loop
+    print(x)
+```
+
+The above will return us:
+
+```
+>>> 1
+>>> "two" # it may also just return `two` instead of `"two"` depending on your compiler
+>>> 3
 ```
