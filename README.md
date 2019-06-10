@@ -107,7 +107,7 @@ Functions are ever present in python, they make up every command you use, whethe
 
 ```python
 def myFunction(input):
-    print(input)
+    print(str(input))
 ```
 
 This function will print whatever we give it as an argument. Running this will give us the result of our function.
