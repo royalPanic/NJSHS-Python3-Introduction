@@ -1,4 +1,5 @@
-Welcome, I'm royal_Panic, and I wrote this guide to teach the fundamentals of Python to my classmates and potentially other classes down the line. There's really no substantial introduction to this, so let's jump right in.
+# Welcome,
+I'm royal_Panic, and I wrote this guide to teach the fundamentals of Python to my classmates and potentially other classes down the line. There's really no substantial introduction to this, so let's jump right in.
 
 ## What is Python?
 Python is a computer programming language designed to be powerful while also being as readable as possible to introduce newcomers. It is regarded as one of the best beginner programming languages, and despite often being portrayed as nothing but a simple beginners' language, it actually powers some incredibly well-known open and close-sourced programs.
