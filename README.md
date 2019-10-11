@@ -1,6 +1,3 @@
-# Newmarket Junior/Senior Highschool STEM Class Python Introduction
----
-## Prelude
 Welcome, I'm royal_Panic, and I wrote this guide to teach the fundamentals of Python to my classmates and potentially other classes down the line. There's really no substantial introduction to this, so let's jump right in.
 
 ## What is Python?
